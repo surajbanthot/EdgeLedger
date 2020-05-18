@@ -1,1 +1,1 @@
-// Hells javaScript
+// Hello javaScript
