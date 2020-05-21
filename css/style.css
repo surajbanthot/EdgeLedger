@@ -56,3 +56,9 @@ p{
     background: #93cb52;
     border-radius: 5px;
 }
+
+/* showCase */
+
+#showcase{
+    background:#3333 url(../)
+}
