@@ -32,6 +32,16 @@ p {
     text-align: center;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #ffff;
+}
+
 .l-heading {
     font-size: 4 rem;
     margin-bottom: 0.75rem;
@@ -44,17 +54,12 @@ p {
     line-height: 1.1;
 }
 
-.py-1 {
-    padding: 1.5rem;
-}
-
-.py-2 {
-    padding: 2.5rem;
-}
-
-.py-3 {
-    padding: 3.5rem;
-}
+.py-1 {    padding: 1.5rem 0;}
+.py-2 {    padding: 2.5rem 0;}
+.py-3 {    padding: 3.5rem 0;}
+.py1 {    padding: 1.5rem 0;}
+.p-2 {    padding: 2.5rem 0;}
+.p-3 {    padding: 3.5rem 0;}
 
 .lead {
     font-size: 1.3rem;
@@ -150,4 +155,18 @@ p {
     background: #93cb52;
     padding: 1rem;
     border-radius: 50%;
+}
+
+/* Section Who We Are  */
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 2;
+}
+
+#who .who-img {
+    background: url('../image_resources/people.jpg') no-repeat center center/cover;
 }
