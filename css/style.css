@@ -16,7 +16,7 @@ a {
 }
 
 p {
-    margin: 0. 75rem 0;
+    margin: 0.75rem 0;
 }
 
 /* Utility Class */
@@ -32,16 +32,6 @@ p {
     text-align: center;
 }
 
-.bg-light {
-    background: #f4f4f4;
-    color: #333;
-}
-
-.bg-dark {
-    background: #333;
-    color: #ffff;
-}
-
 .l-heading {
     font-size: 4 rem;
     margin-bottom: 0.75rem;
@@ -54,12 +44,29 @@ p {
     line-height: 1.1;
 }
 
-.py-1 {    padding: 1.5rem 0;}
-.py-2 {    padding: 2.5rem 0;}
-.py-3 {    padding: 3.5rem 0;}
-.py1 {    padding: 1.5rem 0;}
-.p-2 {    padding: 2.5rem 0;}
-.p-3 {    padding: 3.5rem 0;}
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2.5rem 0;
+}
+
+.py-3 {
+    padding: 3.5rem 0;
+}
+
+.py1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2.5rem;
+}
+
+.p-3 {
+    padding: 3.5rem;
+}
 
 .lead {
     font-size: 1.3rem;
@@ -75,8 +82,28 @@ p {
     border-radius: 10px;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #ffff;
+}
+
 .btn:hover {
     background: rgba(72, 73, 22, 0.2);
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.35rem 0;
+    border-bottom: #444 dotted 1px;
 }
 
 .text-primary {
@@ -169,4 +196,16 @@ p {
 
 #who .who-img {
     background: url('../image_resources/people.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
