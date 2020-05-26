@@ -40,7 +40,8 @@ p {
 
 .m-heading {
     font-size: 2rem;
-    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    margin-bottom: 0.2rem;
     line-height: 1.1;
 }
 
@@ -92,6 +93,11 @@ p {
     color: #ffff;
 }
 
+
+.bg-primary{
+    background:  rgb(67, 221, 170);
+    color:#ffff;
+}
 .btn:hover {
     background: rgba(72, 73, 22, 0.2);
 }
@@ -191,7 +197,7 @@ p {
 }
 
 #who div {
-    flex: 2;
+    flex: 1;
 }
 
 #who .who-img {
@@ -204,8 +210,36 @@ p {
     display: flex;
 }
 
-#clients .items img {
-    display: block;
+#clients .items img{
+    display:block;
     margin: auto;
     width: 60%;
+}
+
+
+/* Section: Contact */
+
+#contact{
+    display: flex;
+}
+
+#contact .map, #contact .contact-form{
+    flex: 1;
+    
+}
+margin .contact-form .form-group{
+    margin: 0.75;
+    
+
+}
+
+#contact .contact-form label{
+    display: block;
+    padding: .25rem;
+
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
 }
