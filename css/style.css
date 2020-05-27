@@ -58,15 +58,15 @@ p {
 }
 
 .py1 {
-    padding: 1.5rem;
+    padding: 1.0rem;
 }
 
 .p-2 {
-    padding: 2.5rem;
+    padding: 2.0rem;
 }
 
 .p-3 {
-    padding: 3.5rem;
+    padding: 3.0rem;
 }
 
 .lead {
@@ -164,7 +164,7 @@ p {
     padding: 0 2rem;
     /* Overlay */
     position: absolute;
-    top: 60px;
+    top: 58px;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -220,26 +220,25 @@ p {
 /* Section: Contact */
 
 #contact{
-    display: flex;
+    display:flex;
 }
 
-#contact .map, #contact .contact-form{
+#contact .map .contact-form{
     flex: 1;
     
 }
-margin .contact-form .form-group{
-    margin: 0.75;
-    
-
+ #contact .contact-form .form-group{
+    margin: 0.75px;
 }
 
 #contact .contact-form label{
     display: block;
-    padding: .25rem;
+    /* padding: 0.25rem; */
 
 }
 
 #contact .contact-form input,
 #contact .contact-form textarea{
     width: 100%;
+    padding: 0.5rem;
 }
